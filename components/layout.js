@@ -11,7 +11,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="./public/images/profile.jpg" />
+        <link rel="icon" href="./public/images/IMG_2019.jpg" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/IMG_2019.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
